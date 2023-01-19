@@ -1,0 +1,91 @@
+body {
+    background-color:plum;
+    margin: 1%;
+    padding: 1%;
+}
+
+h4 {
+color: purple;
+font-family: monospace, sans-serif;
+line-height: 0px;
+font-size: 17px;
+position: absolute;
+top: 80px;
+left: 430px;
+}
+
+p {
+    color: rgb(43, 43, 3);
+    font-family: 'initial', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgba(46, 3, 42, 0.904);
+    font-family: 'monospace', sans-serif;
+    text-align: center;
+}
+
+img {
+        border-radius: 35px;
+}
+
+div {
+        border: 2px;
+}
+
+#foto {
+        float: left;
+        padding: 8px;
+        height: 384px;
+        background-color: purple;
+}
+
+.foto2 {
+        height: 400px;
+        position: relative;
+}
+
+#sobremim {
+    position: absolute;
+    left: 430px;
+    top: 20px;
+}
+
+li {
+    font-family: 'initial', sans-serif;
+    color: rgb(43, 43, 3);
+    font-size: 20px;
+}
+
+ul li:nth-child(1) {
+    background-color: rgb(114, 126, 93);
+    font-style: italic;
+
+}
+
+ul li:nth-child(3) {
+    background-color: rgb(114, 126, 93);
+    font-style: italic;
+}
+
+li a:hover[href*="Foto"] {
+    background-color: purple;
+    color: white;
+}
+li a:hover[href*="sobre"] {
+    background-color: purple;
+    color: white;
+}
+
+li a:hover[href*="habilidades"] {
+    background-color: purple;
+    color: white;
+}
+
+li a:hover[href*="blog"] {
+    background-color: purple;
+    color: white;
+}
+
+   
